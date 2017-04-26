@@ -56,7 +56,7 @@ Go to the users section and select two of your users:
 
 ## Custom rule
 
-Add a new rule which should be executed after the authorization extension rule with the following code:
+Add a new rule with the name `My corporate portal access_token scopes`. It should be executed after the authorization extension rule with the following code:
 
 ```javascript
 function (user, context, callback) {
