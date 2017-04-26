@@ -1,8 +1,15 @@
+# Introduction
+
+The following sample consists of:
+
+* A **.NET Core API** with several endpoints: Some of them do not require authorization and others require authorization via a JWT bearer token.
+* A **React.js Single Page Application** which allows the user to login, display user profile information and test the API based on the permissions granted via the Authorization Extension from Auth0.
+
 # Auth0 Configuration
 
 ## APIs
 
-Create a new API with the following details:
+Create a new API using the following parameters:
 
 * Name: `Corporate API`
 * Identifier: `http://localhost:3636`
@@ -34,16 +41,16 @@ Add the following permissions to the application `My corporate portal`:
 
 Add the following roles to the application `My corporate portal`:
 
-* Role name: Manager, scopes: Select ALL
-* Role name: Employee, scopes: create:timesheets, read:timesheets
+* Role name: `Manager`, scopes: Select ALL
+* Role name: `Employee`, scopes: create:timesheets, read:timesheets
 
 Configure the extension to add permissions to the Token:
 1. Authorization Extension => Configuration => Permissions
 2. Click on Publish Rule
 
 Go to the users section and select two of your users:
-1. Assign the role Manager to one of your users
-2. Assing the role Employee to another user
+1. Assign the role `Manager` to one of your users
+2. Assing the role `Employee` to another user
 
 ## Custom rule
 
