@@ -44,11 +44,11 @@ Add the following permissions to the application `My corporate portal`:
 Add the following roles to the application `My corporate portal`:
 
 * Role name: `Manager`, scopes: Select ALL
-* Role name: `Employee`, scopes: create:timesheets, read:timesheets
+* Role name: `Employee`, scopes: `create:timesheets`, `read:timesheets`
 
 Configure the extension to add permissions to the Token:
 1. Authorization Extension => Configuration => Permissions
-2. Click on Publish Rule
+2. Click on **Publish Rule**
 
 Go to the users section and select two of your users:
 1. Assign the role `Manager` to one of your users
