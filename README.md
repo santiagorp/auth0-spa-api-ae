@@ -5,6 +5,8 @@ The following sample consists of:
 * A **.NET Core API** with several endpoints: Some of them do not require authorization and others require authorization via a JWT bearer token.
 * A **React.js Single Page Application** which allows the user to login, display user profile information and test the API based on the permissions granted via the Authorization Extension from Auth0.
 
+![Screenshot](screenshot.png)
+
 # Auth0 Configuration
 
 ## APIs
