@@ -1,0 +1,21 @@
+.api-test-container {
+  text-align: center;
+}
+
+.api-test-container .data {
+  width: 600px;
+  margin: auto;
+}
+
+.api-test-container .code {
+  text-align: left;
+  background-color: #ffffe8;
+  color:darkblue;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.api-test-container .description {
+  font-size: 1em;
+  font-style: italic;
+}
