@@ -105,11 +105,13 @@ dotnet run
 In the directory `spa/src/Auth` copy the file `auth0-variables.js.example`
 to `auth0-variables.js` and update it with the settings from your SPA client:
 
+```javascript
 export const AUTH_CONFIG = {
   domain: {DOMAIN},
   clientId: {CLIENT_ID},
   callbackUrl: 'http://localhost:3000/callback'
 }
+```
 
 Then restore the node modules and run the application:
 
